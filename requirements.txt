@@ -28,3 +28,6 @@ soupsieve==2.0.1
 tqdm==4.46.1
 urllib3==1.25.9
 warcio==1.7.3
+transformers
+torch
+sklearn
