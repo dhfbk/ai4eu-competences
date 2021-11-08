@@ -43,4 +43,22 @@ The format of the `compFile` is:
 
 ## Version 2 (server)
 
+Version 2 of the tool can be found in the `server` folder and can be run as a service, listening to a port.
+The main script is `server_tfidf.py`, and one needs to fill the `args` variable at the beginning of the source file.
 
+* `inputFile`: `skills_it.csv` file from ESCO ontology
+* `inputGroupFile`: `skillGroups_it.csv` file from ESCO ontology
+* `broaderSkillFile`: `broaderRelationsSkillPillar.csv` file from ESCO ontology
+* `fastTextModel`: `cc.it.300.bin` file from FastText
+* `port`: port where the server will listen to
+* `tint-url`: URL of an instance of Tint, used for lemmatization and part-of-speech tagging
+* `pickle-name`: output file for titles (it will speedup the execution)
+* `pickle-name-2`: output file for descriptions (it will speedup the execution)
+* `modelName`: BERT model (just leave `dbmdz/bert-base-italian-xxl-cased`)
+* `pickle-name-bert`: output file for BERT vectors (it will speedup the execution)
+
+Model files can be downloaded on the respective websites.
+
+* ESCO ontology is available on the [ESCO website](https://ec.europa.eu/esco/portal/home)
+* Tint can be downloaded on the [Tint website](https://tint.fbk.eu/)
+* FastText models can be downloaded from the [FastText models website](https://fasttext.cc/docs/en/crawl-vectors.html)
