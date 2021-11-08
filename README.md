@@ -51,11 +51,11 @@ The main script is `server_tfidf.py`, and one needs to fill the `args` variable 
 * `broaderSkillFile`: `broaderRelationsSkillPillar.csv` file from ESCO ontology
 * `fastTextModel`: `cc.it.300.bin` file from FastText
 * `port`: port where the server will listen to
-* `tint-url`: URL of an instance of Tint, used for lemmatization and part-of-speech tagging
-* `pickle-name`: output file for titles (it will speedup the execution)
-* `pickle-name-2`: output file for descriptions (it will speedup the execution)
+* `tint-url`: URL of an instance of Tint, for example `http://localhost:8012/tint`, used for lemmatization and part-of-speech tagging
+* `pickle-name`: output file for titles, for example `corpus-title.pickle` (it will speedup the execution)
+* `pickle-name-2`: output file for descriptions, for example `corpus-description.pickle` (it will speedup the execution)
 * `modelName`: BERT model (just leave `dbmdz/bert-base-italian-xxl-cased`)
-* `pickle-name-bert`: output file for BERT vectors (it will speedup the execution)
+* `pickle-name-bert`: output file for BERT vectors, for example `vectors-esco.pickle` (it will speedup the execution)
 
 Model files can be downloaded on the respective websites.
 
