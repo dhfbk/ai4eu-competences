@@ -62,3 +62,5 @@ Model files can be downloaded on the respective websites.
 * ESCO ontology is available on the [ESCO website](https://ec.europa.eu/esco/portal/home)
 * Tint can be downloaded on the [Tint website](https://tint.fbk.eu/)
 * FastText models can be downloaded from the [FastText models website](https://fasttext.cc/docs/en/crawl-vectors.html)
+
+Once the server is started, just call it on the corresponding port with at least the `text` argument.
