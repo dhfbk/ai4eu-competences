@@ -59,8 +59,8 @@ The main script is `server_tfidf.py`, and one needs to fill the `args` variable 
 
 Model files can be downloaded on the respective websites.
 
-* ESCO ontology is available on the [ESCO website](https://ec.europa.eu/esco/portal/home)
-* Tint can be downloaded on the [Tint website](https://tint.fbk.eu/)
-* FastText models can be downloaded from the [FastText models website](https://fasttext.cc/docs/en/crawl-vectors.html)
+* ESCO ontology is available on the [ESCO website](https://ec.europa.eu/esco/portal/home) (download the package from [here](https://ec.europa.eu/esco/portal/download))
+* Tint can be downloaded on the [Tint website](https://tint.fbk.eu/) ([direct link](https://dhsite.fbk.eu/tint-release/0.3/tint-0.3-complete.tar.gz))
+* FastText models can be downloaded from the [FastText models website](https://fasttext.cc/docs/en/crawl-vectors.html) ([direct link](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.it.300.bin.gz))
 
 Once the server is started, just call it on the corresponding port with at least the `text` argument.
