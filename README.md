@@ -1,4 +1,6 @@
-# ai4eu-competences
+# Tool for matching competences
+
+## Version 1
 This tool computes the match between text and concepts from ESCO based on the ESCO model itself and the FastText computation model. Trustworthy is ensured in part by these models and their developers.
 
 First of all, install the Python requirements running `pip install -r requirements.txt`.
@@ -38,3 +40,7 @@ The format of the `compFile` is:
    }
  ]
  ```
+
+## Version 2 (server)
+
+
